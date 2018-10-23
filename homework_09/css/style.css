@@ -1,0 +1,223 @@
+html{
+font-family: 'Asap',sans-serif;
+color:#202020;
+font-size: 16pt;
+line-height: 30pt;
+
+}
+body{
+ /* background-image: url('../img/SEFolio.jpg');
+background-position: top;  */
+
+}
+.container{
+max-width: 1300px;
+width: 100%;
+margin: 0 auto;
+padding: 0 10px;
+
+}
+.row{
+display: flex;
+margin: 0 -10px;
+
+}
+.col{
+    padding: 0 10px;
+    flex:1;  /*??? */
+
+
+}
+.project{
+max-width: 940px;
+margin: 0 auto;
+ display: flex; /*text-align: center; конфликт ???? */
+
+ align-items: center;
+
+
+}
+.first{
+    flex-direction: column;
+
+}
+.project h1{
+    font-size: 23pt;
+    line-height: 40pt;
+    font-weight: 400;
+    padding-top: 85px;
+    margin: 0px;
+   
+}
+
+
+.project span{
+    
+    font-weight: 700;
+    color:#2ec06c;
+    
+}
+.project p{
+    font-family: 'Karla', sans-serif;
+    font-size: 12pt;
+    line-height: 30pt;
+    padding-top: 9px;
+    margin: 0px;
+
+}
+.second{
+    padding-top: 46px;
+}
+.group{
+    width: 33.3333333333%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 14px;
+
+}
+
+.solial{
+    box-sizing: border-box;
+    height: 140px;
+    width: 140px;
+    
+    padding: 10px;
+    margin-bottom: 19px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 52px;
+   
+}
+.facebook{
+    color: #3b5998;
+    border:1px solid #3b5998;
+    border-radius:5px;
+}
+.facebook a{
+    color: #3b5998;
+    padding: 60px;
+}
+.facebook:hover {
+    background-color: #3b5998;
+}
+.facebook:hover a {
+     color: #fff;
+}
+
+.twitter{
+   
+    border:1px solid #00aced;
+    border-radius:5px;
+}
+.twitter a{
+    color:  #00aced;
+    padding: 50px;
+}
+.twitter:hover {
+    background-color: #00aced;
+}
+.twitter:hover a {
+    color: #fff;
+}
+
+
+.instagram{
+  
+    border:1px solid #517fa4;
+    border-radius:5px;
+    font-size: 60px;
+}
+.instagram a{
+    color: #517fa4;
+    padding: 60px;
+}
+.instagram:hover {
+    background-color: #517fa4;
+}
+.instagram:hover a {
+    color: #fff;
+}
+
+.dribbble{
+   
+    border:1px solid #ff0084;
+    border-radius:5px;
+}
+.dribbble a{
+    color: #ff0084;
+    padding: 50px;
+}
+.dribbble:hover {
+    background-color:  #ff0084;
+}
+.dribbble:hover a {
+    color: #fff;
+}
+
+
+.form{
+    width: 66.6666666667%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 7px;
+   
+    
+}
+.form input{
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid #bababa;
+    margin-bottom: 18px;
+    width: 300px;
+    box-sizing: border-box;
+    background: none;
+    font-size: 13pt;
+    font-style: italic;
+    letter-spacing: -0.02em;
+}
+.form input:active{
+    border: none;
+/* как сделать рамку зеленой ?? */
+
+}
+
+
+.form textarea{
+    border-radius: 5px;
+    width: 580px;
+    height: 160px;
+    border: 1px solid #bababa;
+    border-radius:  5px  0px 0px 5px;
+    border-right: none;
+    padding: 15px;
+    margin-bottom: 19px;
+    box-sizing: border-box;
+    font-size: 13pt;
+    font-style: italic;
+    background: none;letter-spacing: -0.02em;
+    resize: none;
+}
+
+.btn {
+    border: none;
+    background: none;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+   
+    background-color: #2ec06c; 
+    border-radius:  0px 5px 5px 0px ;
+    color: white;
+    font-size: 18px;
+   padding: 60px 10px;
+    transition: .3s;
+}
+.btn:hover {
+    background-color: #249153;
+}
