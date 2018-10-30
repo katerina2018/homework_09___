@@ -181,22 +181,33 @@ margin: 0 auto;
     font-style: italic;
     letter-spacing: -0.02em;
 }
-.form input:active{
-    border: none;
-/* как сделать рамку зеленой ?? */
+.form input:focus{
+    outline: none; /*!!!!!!!*/
+    border: 1px solid green;
+    border-radius: 5px;
 
 }
 
 
-.form textarea{
+
+
+.form__textarea{
+display: flex;
+flex-direction: row;
+margin-bottom: 19px;
+
+}
+
+
+.form  textarea{
     border-radius: 5px;
-    width: 580px;
+    min-width: 580px;
     height: 160px;
     border: 1px solid #bababa;
     border-radius:  5px  0px 0px 5px;
     border-right: none;
     padding: 15px;
-    margin-bottom: 19px;
+   
     box-sizing: border-box;
     font-size: 13pt;
     font-style: italic;
